@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html>
+<title>Kaiaf Trading Général</title>
+ <link rel="icon" href="img/logo.jpeg" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="font-awesome.min">
+<link rel="stylesheet" href="css.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.5;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("img/istanbul2.jpg");
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 38px;
+  font-family: Times New Roman;
+  font-size:17px;
+   line-height: 0;
+  
+}
+
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <b><a href="french.html" class="w3-bar-item w3-button w3-wide">KAİAF TRADİNG GÉNÉRAL</a></b>
+	 <img src="img/logo.jpeg" alt="Yahya" style="width:4.9%">
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+  
+	  <a href="#about" class="w3-bar-item w3-button"><i class="fa fa-user"></i>SUR</a>
+      <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i>ÉQUIPE</a>
+      <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i>TRAVAIL</a>
+      <a href="#pricing" class="w3-bar-item w3-button"><i class="fa fa-usd"></i>NOS PRODUITS</a>
+      <a href="nouvelles.html" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> NOUVELLES</a>
+	  <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+	    
+	   
+	    <a href="turkish.html"><img src="img/tff.jpg" alt="EF" style="width:3%"></a>
+	   <a href="index.html"><img src="img/ef.jpg" alt="FF" style="width:3%"></a>
+	   <a href="arabic.html"><img src="img/dff.jpg" alt="AF" style="width:3%"></a>
+	   
+    </div>
+	
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Fermer</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">SUR</a>
+  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">ÉQUIPE</a>
+  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">TRAVAIL</a>
+  <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">NOS PRODUITS</a>
+  <a href="nouvelles.html" onclick="w3_close()" class="w3-bar-item w3-button">NOUVELLES</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+  
+   <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button">Anglais</a>
+   <a href="turkish.html" onclick="w3_close()" class="w3-bar-item w3-button">Turque</a>
+   <a href="arabic.html" onclick="w3_close()" class="w3-bar-item w3-button">Arabe</a>
+   
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container" id="home">
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+    <span class="w3-jumbo w3-hide-small"></span><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium">SIÈGE À ISTANBUL</span><br>
+    <span class="w3-large">Venez nous évaluer et faire un projet.</span>
+    <p><a href="#about" class="w3-button w3-red w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">La description</a></p>
+  </div> 
+  <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+</header>
+
+<!-- About Section -->
+<div class="w3-container" style="padding:128px 16px" id="about">
+  <h3 class="w3-center">À PROPOS DE KAIAF GENERAL TRADING</h3>
+  <p class="w3-center w3-large">C'est ce qui nous a différencié!</p>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <div class="w3-quarter">
+      <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
+      <p class="w3-large">L'HISTOIRE</p>
+      <p>Kaiaf General Trading était une société de négoce officielle créée le 25/06/2019 à Istanbul, en Turquie. Le nom officiel de la société est KAIAF IMPORTATION EXPORTATION TOURISME TOURISME HOTLES CONSTRUCTION FOODSTUFF & INDUSTRY LIMITED.</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">VISION</p>
+      <p>Kaiaf General Trading a pour vision de prendre le pouvoir sur les plateformes de commerce international et d’apporter la prospérité aux communautés que nous avons trouvées.</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">MISSION</p>
+      <p>Notre énoncé de mission est d’apporter du dynamisme au commerce international.</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">SOUTIEN</p>
+      <p>Nous vous garantissons un soutien lors de vos affaires, alors saisissez l’opportunité de mieux nous connaître. </p>
+    </div>
+  </div>
+</div>
+
+<!-- Promo Section - "We know design" -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>LA NOTION DE NOTRE TRAVAIL.</h3>
+      <p>1. Hôtel, restaurant et lieux de divertissement</p>
+	  <p>2. Tourisme, agence de voyage, transport national et international de passagers</p>
+	  <p>3.	Construction</p>
+	  <p>4.	Textile</p>
+	  <p>5. Bijoux</p>
+	   
+      <p><a href="#work" class="w3-button w3-black"><i class="fa fa-th"> </i>Voir nos travaux</a></p>
+    </div>
+    <div class="w3-col m6">
+      <img class="w3-image w3-round-large" src="img/headquater.jpg" alt="HEADQUATER" width="700" height="394">
+	  <p>NOTRE SIÈGE À ISTANBUL, TURQUIE</p>
+	   <p>Address: Yeşilkent Mahallesi, Nazım Hikmet Blv. No:60/2, DAIRE NO: 57, Beylikdüzü Osb/Esenyurt/İstanbul</p>
+    </div>
+  </div>
+</div>
+
+<!-- Team Section -->
+<div class="w3-container" style="padding:128px 16px" id="team">
+  <h3 class="w3-center">LA GESTION</h3>
+  <p class="w3-center w3-large">La plus intelligente des équipes!</p>
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="img/lamin.jpg" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>Lamin Jawla Sanneh</h3>
+          <p class="w3-opacity">PDG et fondateur</p>
+        </div>
+      </div>
+    </div>
+	
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="img/abiba.jpeg" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>Abibatou D. Sanneh</h3>
+          <p class="w3-opacity">Partenaire de gestion</p>
+        </div>
+      </div>
+    </div>
+	
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+         <img src="img/stella.jpeg" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>Salamatu Stella Sanneh</h3>
+          <p class="w3-opacity">Partenaire de gestion</p>
+        </div>
+      </div>
+    </div>
+	
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="img/sonko.jpg" alt="Dan" style="width:100%">
+        <div class="w3-container">
+          <h3>Yahya Sonko</h3>
+          <p class="w3-opacity">Directeur du développement des affaires</p>
+        </div>
+      </div>
+    </div>
+	
+		<div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+         <img src="img/hasan.jpg" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>Hassan S. Kromah</h3>
+          <p class="w3-opacity">Directeur administratif</p>
+        </div>
+      </div>
+    </div>
+	
+	
+<div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+         <img src="img/besir.jpeg" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>Beşir TATLIDEDE</h3>
+          <p class="w3-opacity">Comptable</p>
+        </div>
+      </div>
+    </div>
+	
+	<div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+         <img src="img/irem.jpeg" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>Irem TATLIDEDE</h3>
+          <p class="w3-opacity">avocate</p>
+        </div>
+      </div>
+    </div>
+	
+	 <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+         <img src="img/prince.jpeg" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>Prince Koroma</h3>
+          <p class="w3-opacity">Directeur des opérations et des finances</p>
+        </div>
+      </div>
+    </div>
+	
+	<div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+         <img src="img/umaru.jpeg" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>Umaru Sanneh</h3>
+          <p class="w3-opacity">Superviseur en chef des mines</p>
+        </div>
+      </div>
+    </div>
+	
+	<div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+         <img src="img/momo.JPG" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>Khaled El Mohammed</h3>
+          <p class="w3-opacity">Consultant Moyen-Orient</p>
+        </div>
+      </div>
+    </div>
+	
+  </div>
+</div>
+
+<!-- Promo Section "Statistics" -->
+<div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">10+</span>
+    <br>Les partenaires
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">5+</span>
+    <br>Projets
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">100+</span>
+    <br>Clients heureux
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">120+</span>
+    <br>Des réunions
+  </div>
+</div>
+
+<!-- Work Section -->
+<div class="w3-container" style="padding:128px 16px" id="work">
+  <h3 class="w3-center">NOTRE TRAVAIL</h3>
+  <p class="w3-center w3-large">Ce sont quelques-uns des produits que nous traitons!</p>
+
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-col l3 m6">
+      <img src="img/000.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Contactez-nous pour acheter n'importe quelle taille de diamant que vous voulez!">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="img/0000.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Contactez-nous pour acheter n'importe quelle taille de diamant que vous voulez!">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="img/00000.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Contactez-nous pour acheter n'importe quelle taille de diamant que vous voulez!">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="img/000000.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Contactez-nous pour acheter n'importe quelle taille de diamant que vous voulez!">
+    </div>
+  </div>
+
+ 
+  
+  <div class="w3-row-padding w3-section">
+    <div class="w3-col l3 m6">
+      <img src="img/rawg1.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Contactez-nous pour acheter n'importe quelle taille de diamant brut que vous voulez!">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="img/rawg2.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Contactez-nous pour acheter n'importe quelle taille de diamant brut que vous voulez!">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="img/rawg3.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Contactez-nous pour acheter n'importe quelle taille de diamant brut que vous voulez!">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="img/rawg4.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Nous exploitons nous-mêmes les mines en Sierra Leone!">
+    </div>
+  </div>
+  
+  
+  
+    <div class="w3-row-padding w3-section">
+    <div class="w3-col l3 m6">
+      <img src="img/gold1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Or!">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="img/gold2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Or!">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="img/gold3.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Or!">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="img/gold4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Or!">
+    </div>
+  </div>
+  
+  <div class="w3-row-padding w3-section">
+    <div class="w3-col l3 m6">
+      <img src="img/gold5.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Poudre d'or!">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="img/gold6.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Poudre d'or!">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="img/gold7.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Poudre d'or!">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="img/gold8.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Poudre d'or!">
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-section">
+    <div class="w3-col l3 m6">
+      <img src="img/1.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Obtenez votre bague conçue de nous!">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="img/2.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Obtenez votre bague conçue de nous!">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="img/3.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Obtenez votre bague conçue de nous!">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="img/4.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Obtenez votre bague conçue de nous!">
+    </div>
+  </div>
+  
+   <div class="w3-row-padding w3-section">
+    <div class="w3-col l3 m6">
+      <img src="img/ruby1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Obtenez votre rubis coupé de nous!">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="img/ruby2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Obtenez votre rubis coupé de nous!">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="img/ruby3.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Obtenez votre rubis coupé de nous!">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="img/ruby4.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Obtenez votre rubis coupé de nous!">
+    </div>
+  </div>
+  
+   <div class="w3-row-padding w3-section">
+    <div class="w3-col l3 m6">
+      <img src="img/tom1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Obtenez votre tourmaline coupé de nous!">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="img/tom2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Obtenez votre tourmaline coupé de nous!">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="img/tom3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Obtenez votre tourmaline coupé de nous!">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="img/tom4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Obtenez votre tourmaline coupé de nous!">
+    </div>
+  </div>
+  
+    <div class="w3-row-padding w3-section">
+    <div class="w3-col l3 m6">
+      <img src="img/em1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Obtenez votre coupe ou émeraude brute de nous!
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="img/em2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Obtenez votre coupe ou émeraude brute de nous!">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="img/em3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Obtenez votre coupe ou émeraude brute de nous!">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="img/em4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Obtenez votre coupe ou émeraude brute de nous!">
+    </div>
+  </div>
+  
+    <div class="w3-row-padding w3-section">
+    <div class="w3-col l3 m6">
+      <img src="img/sp1.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Obtenez votre coupe ou saphir brut de nous!">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="img/sp2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Obtenez votre coupe ou saphir brut de nous!">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="img/sp3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Obtenez votre coupe ou saphir brut de nous!">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="img/sp4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Obtenez votre coupe ou saphir brut de nous!">
+    </div>
+  </div> 
+  
+  
+  
+  <div class="w3-row-padding w3-section">
+    <div class="w3-col l3 m6">
+      <img src="img/444.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Obtenez votre tout type de métal de nous!">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="img/445.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Obtenez votre tout type de métal de nous!">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="img/446.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Obtenez votre tout type de métal de nous!">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="img/447.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Obtenez votre tout type de métal de nous!">
+    </div>
+  </div>
+  
+  
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Skills Section -->
+<div class="w3-container w3-light-grey w3-padding-64">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>Notre secret.</h3>
+      <p>KAIAF GENERAL TRADING est un important minier et négociant en diamants et en or avec une expérience de plusieurs décennies dans l’expérience acquise. KIAIAF possède le stock le plus complet, de 0,20 à 20 carats de diamants bruts et taillés de toutes formes et tailles. Ainsi qu'un très grand choix de diamants et de bijoux fantaisie.</p>
+      <p>Avec trois sites (SIERRA LEONE, GUINEA CONAKRY et TURQUIE), dans le monde entier et des filiales dans le monde entier, KAIAF est le mieux adapté pour répondre à tous vos besoins en diamants, or et bijoux.</p>
+	  
+    </div>
+    <div class="w3-col m6">
+      <p class="w3-wide"><i class="fa fa-diamond w3-margin-right"></i>DIAMANT</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:50%">%50</div>
+      </div>
+      <p class="w3-wide"><i class="fa fa-diamond w3-margin-right"></i>OR</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:30%">%30</div>
+      </div>
+      <p class="w3-wide"><i class="fa fa-diamond w3-margin-right"></i>AUTRES PIERRES</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:20%">%20</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Pricing Section -->
+<div class="w3-container w3-center w3-dark-grey" style="padding:128px 16px" id="pricing">
+  <h3>NOTRE BOUTIQUE</h3>
+  <p class="w3-large">Achetez n'importe lequel de nos produits d'ici!</p>
+  <div class="w3-row-padding" style="margin-top:64px">
+   
+   <div class="w3-third w3-section">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">DIAMANT</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">80TL/crat</h2>
+          <span class="w3-opacity">Brut</span>
+		   <img src="img/0000.jpg" alt="Yahya" style="width:100%">
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-black w3-padding-large">Call: +905364844698</button>
+        </li>
+      </ul>
+    </div>
+	
+	 <div class="w3-third w3-section">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">GOLD</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">80TL/crat</h2>
+          <span class="w3-opacity">Brut</span>
+		   <img src="img/00000.jpg" alt="Yahya" style="width:100%">
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-black w3-padding-large">Appel: +905364844698</button>
+        </li>
+      </ul>
+    </div>
+	
+	 <div class="w3-third w3-section">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">BAGUE DE DIAMANT</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">10,000TL</h2>
+          <span class="w3-opacity">Pour un</span>
+		   <img src="img/4.jpeg" alt="Yahya" style="width:100%">
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-black w3-padding-large">Appel: +905364844698</button>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+
+<!-- Contact Section -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+  <h3 class="w3-center">CONTACT</h3>
+  <p class="w3-center w3-large">Entrons en contact. Envoie-nous un message:</p>
+  <div style="margin-top:48px">
+    <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Istanbul, Turquie</p>
+    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Téléphone: +90 536 484 46 98</p>
+    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: kaiafgeneral@gmail.com</p>
+    <br>
+	
+	  <div class="w3-xlarge w3-section">
+  
+  
+<a href="https://www.facebook.com/kaiafT/?modal=admin_todo_tour"><img src="img/f1.png" alt="EF" style="width:3%"></a>
+	  <a href="https://twitter.com/KaiafT"><img src="img/t1.png" alt="EF" style="width:3%"></a>
+	  <a href="https://www.linkedin.com/in/kaiaf-trading-99330317a/"><img src="img/l1.png" alt="EF" style="width:3%"></a>
+	  <a href="https://www.instagram.com/kaiaf.trading/"><img src="img/i1.png" alt="EF" style="width:3%"></a> 
+
+  </div>
+  
+    <!-- Image of location/map -->
+    <img src="img/map.jpeg" class="w3-image w3-greyscale" style="width:100%;margin-top:48px">
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>Jusqu'au sommet</a>
+  <div class="w3-xlarge w3-section">
+  
+  
+	<a href="https://www.facebook.com/kaiafT/?modal=admin_todo_tour"><img src="img/f1.png" alt="EF" style="width:3%"></a>
+	  <a href="https://twitter.com/KaiafT"><img src="img/t1.png" alt="EF" style="width:3%"></a>
+	  <a href="https://www.linkedin.com/in/kaiaf-trading-99330317a/"><img src="img/l1.png" alt="EF" style="width:3%"></a>
+	  <a href="https://www.instagram.com/kaiaf.trading/"><img src="img/i1.png" alt="EF" style="width:3%"></a> 
+
+  </div>
+  <p>NOTRE SIÈGE À ISTANBUL, TURQUIE</p>
+	   <p>Address: Yeşilkent Mahallesi, Nazım Hikmet Blv. No:60/2, DAIRE NO: 57, Beylikdüzü Osb/Esenyurt/İstanbul</p>
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+</body>
+</html>

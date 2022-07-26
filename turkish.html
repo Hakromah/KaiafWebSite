@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html>
+<title>Kaiaf Genel Ticareti </title>
+<link rel="icon" href="img/logo.jpeg" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="font-awesome.min">
+<link rel="stylesheet" href="css.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.5;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("img/istanbul2.jpg");
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 38px;
+  font-family: Times New Roman;
+  font-size:17px;
+   line-height: 0;
+  
+}
+
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <b><a href="#home" class="w3-bar-item w3-button w3-wide">KAİAF GENEL TİCARETİ </a></b>
+	 <img src="img/logo.jpeg" alt="Yahya" style="width:4.9%">
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+  
+	  <a href="#about" class="w3-bar-item w3-button"><i class="fa fa-user"></i> HAKKINDA</a>
+      <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> YÖNETİM EKİBİ</a>
+      <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i>İSİMİZİ</a>
+      <a href="#pricing" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> ÜRÜNLER</a>
+      <a href="haber.html" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i>HABER</a>
+	  <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> İLETİŞİM</a>
+	    
+	  
+	   <a href="index.html"><img src="img/ef.jpg" alt="EF" style="width:3%"></a>
+	   <a href="french.html"><img src="img/ff.jpg" alt="FF" style="width:3%"></a>
+	   <a href="arabic.html"><img src="img/dff.jpg" alt="AF" style="width:3%"></a>
+	   
+    </div>
+	
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Kapat</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">HAKKINDA</a>
+  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">YÖNETİM EKİBİ</a>
+  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">İSİMİZİ</a>
+  <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">ÜRÜNLER</a>
+  <a href="haber.html" onclick="w3_close()" class="w3-bar-item w3-button">HABER</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">İLETİŞİM</a>
+  
+   <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button">İngilizce</a>
+   <a href="french.html" onclick="w3_close()" class="w3-bar-item w3-button">Fransızca</a>
+   <a href="arabic.html" onclick="w3_close()" class="w3-bar-item w3-button">Arapça</a>
+   
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container" id="home">
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+    <span class="w3-jumbo w3-hide-small"></span><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium">GENEL MÜDÜRLÜK İSTANBUL'DA!</span><br>
+    <span class="w3-large">Gelip projeleri hem değerleyelim hemde yapalım.</span>
+    <p><a href="#about" class="w3-button w3-red w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Açıklama</a></p>
+  </div> 
+  <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+</header>
+
+<!-- About Section -->
+<div class="w3-container" style="padding:128px 16px" id="about">
+  <h3 class="w3-center">KAIAF GENEL TİCARET HAKKINDA</h3>
+  <p class="w3-center w3-large">Bu bizi farklı kılan şeydi!</p>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <div class="w3-quarter">
+      <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
+      <p class="w3-large">TARİHÇE</p>
+      <p>Kaiaf Genel Ticareti, 25.06.2019 tarihinde İstanbul, Türkiye'de resmi bir ticaret şirketiydi. Şirketin resmi adı KAIAF İTHALAT İHRACAT TURİZM OTELLERİ İNŞAAT GIDA SANAYİ VE SANAYİ SINIRLI'dır.</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">VİZYON</p>
+      <p>Kaiaf Genel Ticaret'in vizyonu, Uluslararası ticaret platformlarından güç almak ve kendimizi bulduğumuz topluluklara refah kazandırmaktır.</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">MİSYON</p>
+      <p>Misyonumuz, Uluslararası Ticarette dinamizm getirmektir.</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">DESTEK</p>
+      <p>Bizimle iş yaparken sizi desteklemesi garantilidir, bu yüzden bizi daha iyi tanıma fırsatını yakalayın.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Promo Section - "We know design" -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>ÇALIŞMA KAVRAMI.</h3>
+      <p>1. Otel, Restoran ve Eğlence Yerleri.</p>
+	  <p>2. Turizm, Seyahat Acentası, Ulusal ve Uluslararası Yolcu Taşımacılığı.</p>
+	  <p>3. İnşaat</p>
+	  <p>4. Tekstil</p>
+	  <p>5. Mücevher</p>
+	   
+      <p><a href="#work" class="w3-button w3-black"><i class="fa fa-th"> </i>Çalışmalarımızı Görüntüleyin</a></p>
+    </div>
+    <div class="w3-col m6">
+      <img class="w3-image w3-round-large" src="img/headquater.jpg" alt="HEADQUATER" width="700" height="394">
+	  <p>GENEL MÜDÜRLÜK İSTANBUL'DA!</p>
+	   <p>Address: Yeşilkent Mahallesi, Nazım Hikmet Blv. No:60/2, DAIRE NO: 57, Beylikdüzü Osb/Esenyurt/İstanbul</p>
+    </div>
+  </div>
+</div>
+
+<!-- Team Section -->
+<div class="w3-container" style="padding:128px 16px" id="team">
+  <h3 class="w3-center">YÖNETİM EKİBİ</h3>
+  <p class="w3-center w3-large">Şimdiye kadar en zeki takım!</p>
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="img/lamin.jpg" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>Lamin Jawla Sanneh</h3>
+          <p class="w3-opacity">CEO ve Kurucu</p>
+        </div>
+      </div>
+    </div>
+	
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="img/abiba.jpeg" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>Abibatou D. Sanneh</h3>
+          <p class="w3-opacity">Yönetici Ortağı</p>
+        </div>
+      </div>
+    </div>
+	
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+         <img src="img/stella.jpeg" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>Salamatu Stella Sanneh</h3>
+          <p class="w3-opacity">Yönetici Ortağı</p>
+        </div>
+      </div>
+    </div>
+	
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="img/sonko.jpg" alt="Dan" style="width:100%">
+        <div class="w3-container">
+          <h3>Yahya Sonko</h3>
+          <p class="w3-opacity">İş Geliştirme Müdürü</p>
+        </div>
+      </div>
+    </div>
+	
+		<div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+         <img src="img/hasan.jpg" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>Hassan S. Kromah</h3>
+          <p class="w3-opacity">İdari müdür</p>
+        </div>
+      </div>
+    </div>
+	
+	
+<div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+         <img src="img/besir.jpeg" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>Beşir TATLIDEDE</h3>
+          <p class="w3-opacity">Muhasebeci</p>
+        </div>
+      </div>
+    </div>
+	
+	<div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+         <img src="img/irem.jpeg" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>Irem TATLIDEDE</h3>
+          <p class="w3-opacity">Avukat</p>
+        </div>
+      </div>
+    </div>
+	
+	 <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+         <img src="img/prince.jpeg" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>Prince Koroma</h3>
+          <p class="w3-opacity">Operasyon ve Finans Müdürü</p>
+        </div>
+      </div>
+    </div>
+	
+	<div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+         <img src="img/umaru.jpeg" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>Umaru Sanneh</h3>
+          <p class="w3-opacity">Baş Danışman Madenciliği</p>
+        </div>
+      </div>
+    </div>
+	
+		<div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+         <img src="img/momo.JPG" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>Khaled El Mohammed</h3>
+          <p class="w3-opacity">Orta Doğu Danışmanı</p>
+        </div>
+      </div>
+    </div>
+	
+  </div>
+</div>
+
+<!-- Promo Section "Statistics" -->
+<div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">10+</span>
+    <br>Ortaklar
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">5+</span>
+    <br>Projeler
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">100+</span>
+    <br>Mutlu Müşteriler
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">120+</span>
+    <br>Toplantılar
+  </div>
+</div>
+
+<!-- Work Section -->
+<div class="w3-container" style="padding:128px 16px" id="work">
+  <h3 class="w3-center">İŞİMİZİ</h3>
+  <p class="w3-center w3-large">Bunlar, ilgilendiğimiz ürünlerden bazıları!</p>
+
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-col l3 m6">
+      <img src="img/000.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="İstediğiniz elmas boyutunda satın almak için bize ulaşın!">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="img/0000.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="İstediğiniz elmas boyutunda satın almak için bize ulaşın!">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="img/00000.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="İstediğiniz elmas boyutunda satın almak için bize ulaşın!">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="img/000000.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="İstediğiniz elmas boyutunda satın almak için bize ulaşın!">
+    </div>
+  </div>
+  
+    
+
+<div class="w3-row-padding w3-section">
+    <div class="w3-col l3 m6">
+      <img src="img/rawg1.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="İstediğiniz ham elmas boyutunda satın almak için bizimle iletişime geçin!">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="img/rawg2.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="İstediğiniz ham elmas boyutunda satın almak için bizimle iletişime geçin!">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="img/rawg3.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="İstediğiniz ham elmas boyutunda satın almak için bizimle iletişime geçin!">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="img/rawg4.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sierra Leone'de madencilik yapıyoruz!">
+    </div>
+  </div>
+  
+    <div class="w3-row-padding w3-section">
+    <div class="w3-col l3 m6">
+      <img src="img/gold1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Altın!">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="img/gold2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Altın!">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="img/gold3.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Altın!">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="img/gold4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Altın!">
+    </div>
+  </div>
+  
+  <div class="w3-row-padding w3-section">
+    <div class="w3-col l3 m6">
+      <img src="img/gold5.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Altın tozu!">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="img/gold6.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Altın tozu!">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="img/gold7.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Altın tozu!">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="img/gold8.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Altın tozu!">
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-section">
+    <div class="w3-col l3 m6">
+      <img src="img/1.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Tasarladığın yüzüğü bizden al!">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="img/2.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Tasarladığın yüzüğü bizden al!">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="img/3.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Tasarladığın yüzüğü bizden al!">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="img/4.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Tasarladığın yüzüğü bizden al!">
+    </div>
+  </div>
+  
+   <div class="w3-row-padding w3-section">
+    <div class="w3-col l3 m6">
+      <img src="img/ruby1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Kesilen yakutunu bizden al!">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="img/ruby2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Kesilen yakutunu bizden al!">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="img/ruby3.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Kesilen yakutunu bizden al!">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="img/ruby4.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Kesilen yakutunu bizden al!">
+    </div>
+  </div>
+  
+   <div class="w3-row-padding w3-section">
+    <div class="w3-col l3 m6">
+      <img src="img/tom1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Kesik turmalinini bizden al!">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="img/tom2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Kesik turmalinini bizden al!">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="img/tom3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Kesik turmalinini bizden al!">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="img/tom4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Kesik turmalinini bizden al!">
+    </div>
+  </div>
+  
+    <div class="w3-row-padding w3-section">
+    <div class="w3-col l3 m6">
+      <img src="img/em1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Kesik veya ham zümrüt bizden alın!">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="img/em2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Kesik veya ham zümrüt bizden alın!">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="img/em3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Kesik veya ham zümrüt bizden alın!">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="img/em4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Kesik veya ham zümrüt bizden alın!">
+    </div>
+  </div>
+  
+    <div class="w3-row-padding w3-section">
+    <div class="w3-col l3 m6">
+      <img src="img/sp1.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Kesilmiş veya çiğ safirinizi bizden alın!">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="img/sp2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Kesilmiş veya çiğ safirinizi bizden alın!">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="img/sp3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Kesilmiş veya çiğ safirinizi bizden alın!">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="img/sp4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Kesilmiş veya çiğ safirinizi bizden alın!">
+    </div>
+  </div>  
+  
+
+  
+  <div class="w3-row-padding w3-section">
+    <div class="w3-col l3 m6">
+      <img src="img/444.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Her türlü metalinizi bizden alın!">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="img/445.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Her türlü metalinizi bizden alın!">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="img/446.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Her türlü metalinizi bizden alın!">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="img/447.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Her türlü metalinizi bizden alın!">
+    </div>
+  </div>
+  
+  
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Skills Section -->
+<div class="w3-container w3-light-grey w3-padding-64">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>Sırlarımız</h3>
+      <p>KAIAF GENEL TİCARET, onlarca yıldan fazla deneyime sahip lider bir elmas ve altın madencisi ve bayisidir. KAIAF, her şekil ve ebattaki 0.20 - 20 ayar ham ve kesim Pırlanta en geniş envanteri taşır. Fantezi Renkli Pırlanta ve Mücevher çok geniş bir seçim.</p>
+      <p>Dünya çapındaki ve tüm dünyadaki iştirakleri olan üç lokasyonla (SIERRA LEONE, GINE CONAKRY ve TÜRKİYE), KAIAF her Pırlanta, Altın ve Takı ihtiyacınızı karşılamak için en uygun çözümdür.</p>
+	  
+    </div>
+    <div class="w3-col m6">
+      <p class="w3-wide"><i class="fa fa-diamond w3-margin-right"></i>ELMAS</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:50%">%50</div>
+      </div>
+      <p class="w3-wide"><i class="fa fa-diamond w3-margin-right"></i>ALTIN</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:30%">%30</div>
+      </div>
+      <p class="w3-wide"><i class="fa fa-diamond w3-margin-right"></i>DİĞER TAŞLARI</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:20%">%20</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Pricing Section -->
+<div class="w3-container w3-center w3-dark-grey" style="padding:128px 16px" id="pricing">
+  <h3>DÜKKANIMIZ</h3>
+  <p class="w3-large">Ürünümüzden herhangi birini buradan satın alın!</p>
+  <div class="w3-row-padding" style="margin-top:64px">
+   
+   <div class="w3-third w3-section">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">ELMAS</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">80TL/crat</h2>
+          <span class="w3-opacity">Brut</span>
+		   <img src="img/0000.jpg" alt="Yahya" style="width:100%">
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-black w3-padding-large">Ara: +905364844698</button>
+        </li>
+      </ul>
+    </div>
+	
+	 <div class="w3-third w3-section">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">ALTIN</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">80TL/crat</h2>
+          <span class="w3-opacity">Brut</span>
+		   <img src="img/00000.jpg" alt="Yahya" style="width:100%">
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-black w3-padding-large">Ara: +905364844698</button>
+        </li>
+      </ul>
+    </div>
+	
+	 <div class="w3-third w3-section">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">ELMAS YÜZÜK</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">10,000TL</h2>
+          <span class="w3-opacity">Bir Tanesi</span>
+		   <img src="img/4.jpeg" alt="Yahya" style="width:100%">
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-black w3-padding-large">Ara: +905364844698</button>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+
+<!-- Contact Section -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+  <h3 class="w3-center">İLETİŞİM</h3>
+  <p class="w3-center w3-large">Temasa geçelim. Bize mesaj gönder:</p>
+  <div style="margin-top:48px">
+    <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> İstanbul, TÜRKİYE</p>
+    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Cep Telephone: +90 536 484 46 98</p>
+    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> E-posta: kaiafgeneral@gmail.com</p>
+    <br>
+	
+	  <div class="w3-xlarge w3-section">
+  
+  <a href="https://www.facebook.com/kaiafT/?modal=admin_todo_tour"><img src="img/f1.png" alt="EF" style="width:3%"></a>
+	  <a href="https://twitter.com/KaiafT"><img src="img/t1.png" alt="EF" style="width:3%"></a>
+	  <a href="https://www.linkedin.com/in/kaiaf-trading-99330317a/"><img src="img/l1.png" alt="EF" style="width:3%"></a>
+	  <a href="https://www.instagram.com/kaiaf.trading/"><img src="img/i1.png" alt="EF" style="width:3%"></a> 
+
+  </div>
+  
+    <!-- Image of location/map -->
+    <img src="img/map.jpeg" class="w3-image w3-greyscale" style="width:100%;margin-top:48px">
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>Başa</a>
+  <div class="w3-xlarge w3-section">
+  
+ <a href="https://www.facebook.com/kaiafT/?modal=admin_todo_tour"><img src="img/f1.png" alt="EF" style="width:3%"></a>
+	  <a href="https://twitter.com/KaiafT"><img src="img/t1.png" alt="EF" style="width:3%"></a>
+	  <a href="https://www.linkedin.com/in/kaiaf-trading-99330317a/"><img src="img/l1.png" alt="EF" style="width:3%"></a>
+	  <a href="https://www.instagram.com/kaiaf.trading/"><img src="img/i1.png" alt="EF" style="width:3%"></a> 
+  </div>
+  <p>GENEL MÜDÜRLÜK İSTANBUL'DA!</p>
+	   <p>Address: Yeşilkent Mahallesi, Nazım Hikmet Blv. No:60/2, DAIRE NO: 57, Beylikdüzü Osb/Esenyurt/İstanbul</p>
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+</body>
+</html>
